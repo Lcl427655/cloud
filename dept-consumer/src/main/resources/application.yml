@@ -1,0 +1,8 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka17001.com:17001/eureka/,http://eureka17002.com:17002/eureka/,http://eureka17003.com:17003/eureka/
