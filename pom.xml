@@ -14,10 +14,13 @@
         <module>dept-provider-28001</module>
         <module>dept-provider-28002</module>
         <module>dept-provider-28003</module>
+        <module>dept-provider-hystrix-38001</module>
         <module>dept-consumer</module>
+        <module>dept-consumer-feign</module>
         <module>eureka-server-17001</module>
         <module>eureka-server-17002</module>
         <module>eureka-server-17003</module>
+        <module>consumer-hystrix-dashboard</module>
     </modules>
 
     <properties>
@@ -58,6 +61,12 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
                 <version>1.1.12</version>
+            </dependency>
+            <dependency>
+                <!--首先需要在plugins中安装才可以使用-->
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.4</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>

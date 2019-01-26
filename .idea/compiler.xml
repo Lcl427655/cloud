@@ -8,10 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-api" />
+        <module name="consumer-hystrix-dashboard" />
         <module name="dept-consumer" />
+        <module name="dept-consumer-feign" />
         <module name="dept-provider-28001" />
         <module name="dept-provider-28002" />
         <module name="dept-provider-28003" />
+        <module name="dept-provider-hystrix-38001" />
         <module name="eureka-server-17001" />
         <module name="eureka-server-17002" />
         <module name="eureka-server-17003" />

@@ -11,7 +11,7 @@ import java.io.Serializable;
 @Data//get-set
 @Accessors(chain = true)//链式操作
 public class Dept implements Serializable {//必须序列化
-    private Integer deptId;
+    private Long deptId;
     private String deptName;
     private String deptCode;
     private String dbSource;
